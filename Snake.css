@@ -1,0 +1,56 @@
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: url("../Snake/snk1.png");
+    background-color: #4D6E5E;
+    min-height: 100vh;
+    background-size: 40vw 100vh;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 3px solid #EF391D;
+    background-color: #B1C682;
+    box-shadow: 15px 7px #494B3B;
+    display: block;
+  }
+  #p1 {
+    color: white;
+    position: absolute;
+    font-family: monospace;
+    right: 240px;
+    top: 200px;
+    font-size: 120px;
+    font-weight: bold;
+  }
+
+  #p2 {
+    color: #DEFF00;
+    text-shadow: 3px 1px black;
+    font-family: monospace;
+    font-weight: bold;
+    position: absolute;
+    font-size: 80px;
+    right: 100px;
+    bottom: 420px;
+  }
+
+  #btn1{
+    background-color: #DEFF00;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 30px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 170px;
+    right: 210px;
+  }
+
+</style>
